@@ -12,5 +12,16 @@ package com.paradise.ddpath.parser;
  *  deletion without notice.</b>
  */
 public class Parser {
-
+	Lexer S = null;
+	public Parser(Lexer S){
+		this.S = S;
+		S.nextToken();
+	}
+	
+	/**
+	 * 编译单元
+	 */
+	public void compilationUnit(){
+		
+	}
 }
