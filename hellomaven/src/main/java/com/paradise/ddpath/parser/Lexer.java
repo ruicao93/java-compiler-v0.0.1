@@ -11,10 +11,9 @@ package com.paradise.ddpath.parser;
 public interface Lexer {
 	
 	int endPos();
-	Name name();
 	void nextToken();
 	void pos();
-	void token();
+	Token token();
 	void token(Token token);
 	void reset();
 }
